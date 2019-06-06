@@ -24,6 +24,6 @@ public class KnightConfig {
 
     @Bean
     public Quest quest() {
-        return new SlayDragonQuest(System.out);
+        return new SlayDragonQuest();
     }
 }

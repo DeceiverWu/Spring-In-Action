@@ -3,12 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <bean id="quest" class="com.deceiver.pojo.SlayDragonQuest"/>
+
     <bean id="knight" class="com.deceiver.pojo.BraveKnight">
         <constructor-arg ref="quest"/>
-    </bean>
-
-    <bean id="quest" class="com.deceiver.pojo.SlayDragonQuest">
-        <constructor-arg value="#{T(System}.out}"/>
     </bean>
 
 </beans>
