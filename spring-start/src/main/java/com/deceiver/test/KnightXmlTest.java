@@ -13,7 +13,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class KnightXmlTest {
 
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("Knights.xml");
+        ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("Knights-AOP.xml");
         Knight knight = (Knight) ctx.getBean("knight");
         knight.embarkOnQuest();
         ctx.close();
