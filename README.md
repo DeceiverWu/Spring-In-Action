@@ -24,9 +24,9 @@
 
 * Spring pofile
 * 条件化的bean声明
-* 自动装配与歧义性
-* bean的作用域
-* Spring的表达语言
+* 自动装配与歧义性(Primary、Qualifier)
+* bean的作用域(Singleton、Prototype、Session、Request)
+* Spring的表达语言(SpEL)
 
 **Run Project:** [spring-ioc-autodiscovery]()
 
