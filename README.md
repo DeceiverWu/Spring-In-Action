@@ -30,3 +30,17 @@
 
 **Run Project:** [spring-ioc-autodiscovery](https://github.com/DeceiverWu/Spring-In-Action/tree/master/spring-ioc-autodiscovery)
 
+## 4. 面向切面的Spring
+
+* Spring对AOP的支持局限于方法拦截
+* 注入式AspectJ切面(适用于任何版本)
+* Spring AOP 应用场景
+* Before、After、Around Advice
+
+**Run Project(xml):** [spring-aop-xml](https://github.com/DeceiverWu/Spring-In-Action/tree/master/spring-aop-xml)
+
+**Run Project(config):** [spring-aop-aspectj](https://github.com/DeceiverWu/Spring-In-Action/tree/master/spring-aop-aspectj)
+
+## 5. 利用Spring Mvc构建Web应用程序
+
+

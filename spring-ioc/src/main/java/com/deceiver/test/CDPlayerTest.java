@@ -4,14 +4,13 @@ import com.deceiver.config.CDPlayerConfig;
 import com.deceiver.pojo.CompactDisc;
 import com.deceiver.pojo.MediaPlayer;
 import org.junit.Assert;
-import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import java.util.logging.Logger;
 
 /**
  * Created with IntelliJ IDEA.
@@ -23,8 +22,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {CDPlayerConfig.class})
 public class CDPlayerTest {
-
-    public Logger logger = LoggerFactory.getLogger(CDPlayerTest.class);
 
     @Autowired
     private MediaPlayer player;
