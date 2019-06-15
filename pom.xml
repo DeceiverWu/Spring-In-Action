@@ -14,8 +14,8 @@
         <module>spring-ioc-autodiscovery</module>
         <module>spring-aop-xml</module>
         <module>spring-aop-aspectj</module>
-        <module>spring-web-mvc</module>
         <module>spitter-web</module>
+        <module>springboot-start</module>
     </modules>
 
 
