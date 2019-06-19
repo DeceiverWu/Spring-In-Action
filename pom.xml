@@ -16,6 +16,7 @@
         <module>spring-aop-aspectj</module>
         <module>spitter-web</module>
         <module>springboot-start</module>
+        <module>springboot-jdbc</module>
     </modules>
 
 
