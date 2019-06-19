@@ -47,3 +47,19 @@
 * 透明地绑定表单参数
 * 校验表单提交
 
+**Run Project:** [spitter-web](https://github.com/DeceiverWu/Spring-In-Action/tree/master/spitter-web)
+
+## 6. Springboot 之旅
+
+* 基于maven、spring，依赖已封装
+* Restful风格注解
+* 配置文件更替为properties，不再使用xml作为web配置文件
+* 资源整合
+
+**Run Project:** [springboot-start](https://github.com/DeceiverWu/Spring-In-Action/tree/master/springboot-start)
+
+## 7. Springboot使用Jdbc构建Web应用
+
+* Jdbc Template的使用
+
+**Run Project:** [springboot-jdbc](https://github.com/DeceiverWu/Spring-In-Action/tree/master/springboot-jdbc)
