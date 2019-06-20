@@ -17,6 +17,8 @@
         <module>spitter-web</module>
         <module>springboot-start</module>
         <module>springboot-jdbc</module>
+        <module>springboot-jpa</module>
+        <module>springboot-security</module>
     </modules>
 
 
