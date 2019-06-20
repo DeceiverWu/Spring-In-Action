@@ -1,7 +1,7 @@
-package com.deceiver.springbootsecurity.web;
+package com.deceiver.springbootautoconfiguration.web;
 
-import com.deceiver.springbootsecurity.domain.RegistrationForm;
-import com.deceiver.springbootsecurity.repository.UserRepository;
+import com.deceiver.springbootautoconfiguration.domain.RegistrationForm;
+import com.deceiver.springbootautoconfiguration.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;

@@ -19,6 +19,7 @@
         <module>springboot-jdbc</module>
         <module>springboot-jpa</module>
         <module>springboot-security</module>
+        <module>springboot-autoconfiguration</module>
     </modules>
 
 

@@ -1,4 +1,4 @@
-package com.deceiver.springbootsecurity.config;
+package com.deceiver.springbootautoconfiguration.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -23,7 +23,7 @@ import org.springframework.security.crypto.password.StandardPasswordEncoder;
 @SuppressWarnings("deprecation")
 @Configuration
 @EnableWebSecurity
-@ComponentScan("com.deceiver.springbootsecurity.service")
+@ComponentScan("com.deceiver.springbootautoconfiguration")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
